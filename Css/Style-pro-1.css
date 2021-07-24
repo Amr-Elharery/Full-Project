@@ -489,11 +489,32 @@ header .links ul li:not(:last-child) a
 .footer
 {
     background-color:var(--secondary-color);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer p
+{
     text-align: center;
     padding: 30px 10px;
     font-size: 18px;
     color: #FFF;
+    margin:0;
 }
+.footer i
+{
+    text-align: center;
+    padding: 30px 10px;
+    color:var(--main-color)
+}
+
+.footer a
+{
+    font-weight: 800;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
 .footer span
 {
     color:var(--main-color);
